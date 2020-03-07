@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  table
+    each city in cities
+      tr
+        td=city.city
+        td=city.region
+        td=city.district
+        td=city.population
+        td=city.base
+        td=city.cityStatus
